@@ -11,9 +11,9 @@
     "esbuild": "^0.20.2",
     "next-auth": "^4.24.7",
     "postcss": "^8.4.38",
+    "solid-js": "^1.8.17",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8",
-    "solid-js": "^1.8.17"
+    "vite": "^5.2.8"
   },
   "dependencies": {
     "@auth/core": "^0.29.0",
@@ -22,6 +22,7 @@
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.13.3",
     "@solidjs/start": "^1.0.0",
+    "ol": "^9.2.4",
     "solid-js": "^1.8.17",
     "vinxi": "^0.3.11"
   },
