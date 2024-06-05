@@ -17,7 +17,11 @@ function createDelay() {
 const Child = (props) => {
   return (
     <div class="tab-content">
-      <MapComponent />
+      <Switch fallback={<p>{CONTENT[props.page]} </p>}>
+        <Match when={CONTENT[props.page] === "map"}>
+          <MapComponent />
+        </Match>
+      </Switch>
     </div>
   );
 };
