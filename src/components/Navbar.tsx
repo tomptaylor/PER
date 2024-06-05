@@ -1,8 +1,8 @@
-const Mynavbar = () => {
+const Navbar = () => {
   return (
     <>
       <a href="/">Index</a>
-      <a href="/protected">Protected</a>
+      <a href="/tools">Tools</a>
       <a href="https://www.fs.usda.gov/foresthealth/applied-sciences/index.shtml">
         FHTET
       </a>
@@ -13,4 +13,4 @@ const Mynavbar = () => {
   );
 };
 
-export default Mynavbar;
+export default Navbar;
