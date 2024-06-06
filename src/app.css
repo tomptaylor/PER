@@ -74,13 +74,8 @@ p {
   font-family: sans-serif;
   color: #444;
   min-height: 400px;
-}
-
-.pending {
-  transition: color 0.3s;
-  transition-delay: 0.1s;
-  transition-timing-function: ease-in;
-  color: #aaa;
+  height: 100%;
+  width: 100%;
 }
 
 ul.inline {
@@ -109,11 +104,4 @@ ul.inline li {
 ul.inline li.selected {
   border-bottom: 2px solid #337ab7;
   color: #444;
-}
-
-.loader {
-  color: #aaa;
-  font-size: 16px;
-  font-weight: 600;
-  width: 80px;
 }
