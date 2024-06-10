@@ -13,13 +13,13 @@ const Tab = () => {
     <>
       <ul class="inline">
         <li classList={{ selected: tab() === 0 }} onClick={updateTab(0)}>
-          Uno
+          General
         </li>
         <li classList={{ selected: tab() === 1 }} onClick={updateTab(1)}>
-          Dos
+          Geography
         </li>
         <li classList={{ selected: tab() === 2 }} onClick={updateTab(2)}>
-          Tres
+          Narrative
         </li>
       </ul>
       <div class="tab" classList={{ pending: pending() }}>

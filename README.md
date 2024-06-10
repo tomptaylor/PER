@@ -1,3 +1,5 @@
+- need to add in logic to load region
+
 # SolidStart + AuthJS
 
 ## Setup a Discord app
@@ -7,7 +9,6 @@ In order to run this example, you need to setup i.e. a Discord app in here: http
 ## AuthJS
 
 Everything you need to build an [AuthJS](https://authjs.dev/) authenticated Solid project, powered by [`solid-start`](https://start.solidjs.com);
-
 
 Note that Discord is just one of many auth providers supported by Auth.js.
 
