@@ -105,25 +105,6 @@ const InputForm = () => {
                 <span>{errors().pestEventClosure}</span>
               )}
             </div>
-            <div class="group relative cursor-pointer py-2">
-              <div class="flex items-center justify-between space-x-5 bg-green-500 px-4">
-                <label
-                  for="test"
-                  class="menu-hover my-2 py-2 text-base font-medium text-black lg:mx-4"
-                >
-                  Choose Day
-                </label>
-              </div>
-
-              <select class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-1 px-4 text-gray-800 shadow-xl group-hover:visible">
-                <option
-                  value="1"
-                  class="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2"
-                >
-                  tree
-                </option>
-              </select>
-            </div>
           </div>
         </div>
       </form>
