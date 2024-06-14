@@ -16,17 +16,8 @@ const Protected: VoidComponent = () => {
           <h1>Report</h1>
           {us.user?.image ? <img src={us.user?.image} /> : null}
           <span>Hey there {us.user?.name}! You are signed in!</span>
+
           <Tab />
-          <button
-            onClick={() =>
-              void signOut({
-                redirectTo: "/",
-                redirect: true,
-              })
-            }
-          >
-            Sign Out
-          </button>
         </main>
       )}
     </Show>
