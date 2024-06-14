@@ -2,6 +2,7 @@ import { createSession, signIn } from "@solid-mediakit/auth/client";
 import { Navigate } from "@solidjs/router";
 import { Show, createSignal, onCleanup } from "solid-js";
 import InputForm from "~/components/UpdReport";
+import UserInfo from "~/components/UserInfo";
 
 export default function Home() {
   const session = createSession();
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <main>
       <h1 class="b">Home</h1>
+      <UserInfo />
       <InputForm />
       <Show
         when={session()}

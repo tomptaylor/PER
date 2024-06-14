@@ -1,8 +1,7 @@
 import { createSession } from "@solid-mediakit/auth/client";
 import { Show, type VoidComponent } from "solid-js";
-import Tab from "~/components/Tab";
 
-const Protected: VoidComponent = () => {
+const UserInfo: VoidComponent = () => {
   const session = createSession();
 
   return (
@@ -12,16 +11,15 @@ const Protected: VoidComponent = () => {
       keyed
     >
       {(us) => (
-        <main>
-          <h1>Report</h1>
-          {us.user?.image ? <img src={us.user?.image} /> : null}
-          <span>Hey there {us.user?.name}! You are signed in!</span>
-
-          <Tab />
-        </main>
+        <>
+          {us.user?.image ? (
+            <img class="w-10 h-10" src={us.user?.image} />
+          ) : null}
+          {us.user?.name}
+        </>
       )}
     </Show>
   );
 };
 
-export default Protected;
+export default UserInfo;
