@@ -11,12 +11,12 @@ const UserInfo: VoidComponent = () => {
       keyed
     >
       {(us) => (
-        <>
+        <div class="flex border-pink-400 border-4">
           {us.user?.image ? (
-            <img class="w-10 h-10" src={us.user?.image} />
+            <img class="w-15 h-15" src={us.user?.image} />
           ) : null}
-          {us.user?.name}
-        </>
+          <div>{us.user?.name}</div>
+        </div>
       )}
     </Show>
   );
