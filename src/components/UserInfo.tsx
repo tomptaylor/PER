@@ -13,7 +13,7 @@ const UserInfo: VoidComponent = () => {
       {(us) => (
         <div class="flex border-pink-400 border-4">
           {us.user?.image ? (
-            <img class="w-15 h-15" src={us.user?.image} />
+            <img class="w-16 h-16 p-4" src={us.user?.image} />
           ) : null}
           <div>{us.user?.name}</div>
         </div>
