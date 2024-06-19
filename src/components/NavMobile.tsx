@@ -16,7 +16,6 @@ export default function NavMobile() {
 
   return (
     <>
-      <div>{state.mobileMenuOpen}</div>
       <div class="md:hidden">
         {/* <button
           class="text-white focus:outline-none"

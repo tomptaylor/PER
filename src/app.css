@@ -109,3 +109,18 @@ ul.inline li.selected {
   border-bottom: 2px solid #337ab7;
   color: #444;
 }
+
+.toggle-track {
+  background-color: #ddd;
+}
+.toggle-track.checked {
+  background-color: #4ade80; /* Green when checked */
+}
+.toggle-thumb {
+  left: 0;
+  background-color: white;
+  transition: all 0.3s;
+}
+.toggle-thumb.checked {
+  left: 1.25rem; /* Move to the right when checked */
+}

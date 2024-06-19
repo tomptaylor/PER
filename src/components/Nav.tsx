@@ -11,7 +11,7 @@ export default function Nav() {
       : "border-transparent hover:border-sky-600";
   const [isOpen, setIsOpen] = createSignal(false);
   return (
-    <nav class="bg-sky-800">
+    <nav class="bg-sky-800 w-full">
       <NavMobile />
       <NavDesk />
     </nav>
