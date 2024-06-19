@@ -1,12 +1,14 @@
 import { signOut } from "@solid-mediakit/auth/client";
 import UserInfo from "./UserInfo";
 import { createSignal } from "solid-js";
+import { setState, state } from "~/stores/navstore";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = createSignal(false);
 
   return (
     <>
+      <div>{}</div>
       <nav class="bg-green-600 p-4">
         <div class="container mx-auto flex justify-between items-center">
           <div

@@ -6,6 +6,7 @@ import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import "./app.css";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 export default function App() {
   return (
@@ -16,8 +17,7 @@ export default function App() {
 
           <Suspense>
             <SessionProvider>
-              {" "}
-              <Navbar></Navbar>
+              <Header />
               {props.children}{" "}
             </SessionProvider>
           </Suspense>
